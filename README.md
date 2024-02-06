@@ -40,16 +40,16 @@ The program continues to run until the user chooses to exit.
 Scanner: A class in Java that provides methods for reading input from various sources, such as the console.
 Double.NaN: A constant representing "Not a Number," used to indicate undefined or unrepresentable results in floating-point calculations.
 
-Basic Mathematical Operations Methods:
+### Basic Mathematical Operations Methods:
 add(double a, double b): Returns the sum of two numbers.
 subtract(double a, double b): Returns the result of subtracting the second number from the first.
 multiply(double a, double b): Returns the product of two numbers.
 divide(double a, double b): Returns the result of dividing the first number by the second. Handles division by zero and returns Double.NaN in such cases.
 
-Advanced Mathematical Operations Methods:
+### Advanced Mathematical Operations Methods:
 squareRoot(double a): Returns the square root of a number. Handles negative input and returns Double.NaN for such cases.
 power(double base, double exponent): Returns the result of raising the base to the specified exponent.
 
-Statistical Operations Methods:
+### Statistical Operations Methods:
 mean(): Prompts the user to enter numbers until they type "end", calculates and returns the mean (average) of the entered numbers.
 variance(): Prompts the user to enter numbers until they type "end", calculates and returns the variance of the entered numbers.
