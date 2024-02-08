@@ -49,12 +49,20 @@ Write
 a Java program that declares two arrays named 'even' and 'odd'.
 Accept numbers from the user and move them to respective arrays depending
 on whether they are even or odd.
+### Description
+The program takes user input to determine the size of an array. It then prompts the user to enter numbers, categorizing them as even or odd and storing them in separate arrays. Finally, it displays the even and odd numbers stored in their respective arrays. The program utilizes the Scanner class for user input.
 
 ## Assignment 2 Part 2
  Implement a Java method  that
 finds two neighboring numbers in an array with the smallest distance to
 each. The function should return the index of the 1st number.
 
+### Description
+The program defines a method named findNearestNeighborIndex, which takes an array of integers as input and returns the index of the first number with the smallest distance to its neighboring number. The main method of the program takes user input to determine the size of the array, prompts the user to enter array elements, and then calls the findNearestNeighborIndex method to find and display the index of the nearest neighbor with the smallest distance. The program utilizes the Scanner class for user input and includes checks for null arrays or arrays with less than two elements.
+
 ## Assignment 2 Part 3
 Write a Java program to convert an array into ArrayList and
 vice versa.
+
+### Description
+The program takes user input to determine the size of a string array. It then prompts the user to enter string elements for the array. After that, it converts the array to an ArrayList using Arrays.asList() and initializes an ArrayList named fruitList. The program then prints the conversion from Array to ArrayList. Subsequently, it converts the ArrayList back to an array using the toArray method and prints the resulting array. The program utilizes the Scanner class for user input and demonstrates the conversion between arrays and ArrayLists.
