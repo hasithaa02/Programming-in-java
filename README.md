@@ -11,11 +11,6 @@ Depending on the user's choice, it either calculates the Fibonacci sequence, fac
 The fibonacci and factorial methods perform the respective calculations.
 The program continues to run until the user chooses to exit.
 
-### Definitions:
-
-Scanner: A class in Java that provides methods for reading input from various sources, such as the console.
-BigInteger: A class in Java that provides arbitrary-precision integers. It is used for handling large factorials.
-
 ### fibonacci method:
 
 Calculates the Fibonacci sequence value at a given position using recursion.
@@ -34,11 +29,6 @@ The program starts by creating an instance of the Calculator class and a Scanner
 It enters an infinite loop displaying a menu and waiting for user input.
 Depending on the user's choice, it calls the corresponding method from the Calculator class.
 The program continues to run until the user chooses to exit.
-
-### Definitions:
-
-Scanner: A class in Java that provides methods for reading input from various sources, such as the console.
-Double.NaN: A constant representing "Not a Number," used to indicate undefined or unrepresentable results in floating-point calculations.
 
 ### Basic Mathematical Operations Methods:
 add(double a, double b): Returns the sum of two numbers.
