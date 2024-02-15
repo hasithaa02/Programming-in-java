@@ -66,3 +66,19 @@ vice versa.
 
 ### Description
 The program takes user input to determine the size of a string array. It then prompts the user to enter string elements for the array. After that, it converts the array to an ArrayList using Arrays.asList() and initializes an ArrayList named fruitList. The program then prints the conversion from Array to ArrayList. Subsequently, it converts the ArrayList back to an array using the toArray method and prints the resulting array. The program utilizes the Scanner class for user input and demonstrates the conversion between arrays and ArrayLists.
+## Assignment 3
+Write a  menu-driven Java Program to study the concepts of classes, and array of
+objects/arraylist, instance members, and constructors in Java. Assignment description:
+Create a Student class describing attributes of a student like prn, name, DoB, marks etc.
+Create an array of objects of Student class and perform operations like Add students, Display,
+Search. (by prn, by name, by position), Update/Edit and Delete.
+
+### Description
+This Java code implements a Student Management System using a Student class and a main class. The Student class represents a student with attributes like PRN, name, DoB, and marks. The main class, StudentManagementSystem, uses an ArrayList to manage student records, providing a menu-driven interface for users to add, display, search, update, or delete student information. Input validation is implemented, and the program runs in a loop until the user chooses to exit, ensuring a user-friendly experience for managing student data through console input.
+Methods:
+add student: Takes user input to add a new student to the ArrayList. Handles input exceptions.
+displayStudents: Displays the details of all students in the ArrayList.
+searchStudents: Provides a submenu for searching students by PRN or name.
+searchByPRN and searchByName: Search for students based on PRN or name, respectively.
+updateStudent: Updates the marks of a student based on PRN.
+deleteStudent: Deletes a student based on PRN.
