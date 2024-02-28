@@ -110,10 +110,10 @@ calculatePerimeter(): Computes the perimeter of the rectangle using the formula 
 ## Assignment 5 part 2
 Part2 :  Implement Employee as an abstract and derive 2 classes such as NormalEmployee and BonusEmployee from it and perform the salary calculations based on the formulas  as per the excel attachment
 
-
+### description
 This Java code defines a simplified payroll system with an abstract class Employee and two subclasses, NormalEmployee and BonusEmployee. The PaySlip class demonstrates how to use these classes by creating instances and printing pay slips.
 
-### Methods in Employee class:
+### Methods:
 
 Getter and Setter methods: Access and modify attributes.
 theMonthly() method: Abstract method for monthly salary calculation.
