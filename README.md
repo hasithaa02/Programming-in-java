@@ -82,3 +82,46 @@ searchStudents: Provides a submenu for searching students by PRN or name.
 searchByPRN and searchByName: Search for students based on PRN or name, respectively.
 updateStudent: Updates the marks of a student based on PRN.
 deleteStudent: Deletes a student based on PRN.
+
+## Assignment 5 part 1
+
+Part 1 - Implement the generic Shapes class as an interface s so that we can implement concrete classes like circle, triangle, rectangle class from it.
+
+### Description
+The code defines a Java program that models geometric shapes using an interface Shape and implements it in three classes: Circle, Triangle, and Rectangle. The Assignment5_Part1 class serves as the main class to demonstrate the functionality of these shapes by calculating and displaying their areas and perimeters.
+### Methods:
+
+Shape Interface:
+
+calculateArea(): Calculates the area of the shape.
+calculatePerimeter(): Calculates the perimeter of the shape.
+Circle Class:
+
+calculateArea(): Computes the area of the circle using the formula πr².
+calculatePerimeter(): Computes the perimeter of the circle using the formula 2πr.
+Triangle Class:
+
+calculateArea(): Implements area calculation for a triangle using Heron's formula.
+calculatePerimeter(): Computes the perimeter of the triangle by summing its sides.
+Rectangle Class:
+
+calculateArea(): Computes the area of the rectangle using the formula length × width.
+calculatePerimeter(): Computes the perimeter of the rectangle using the formula 2(length + width).
+## Assignment 5 part 2
+Part2 :  Implement Employee as an abstract and derive 2 classes such as NormalEmployee and BonusEmployee from it and perform the salary calculations based on the formulas  as per the excel attachment
+
+
+This Java code defines a simplified payroll system with an abstract class Employee and two subclasses, NormalEmployee and BonusEmployee. The PaySlip class demonstrates how to use these classes by creating instances and printing pay slips.
+
+### Methods in Employee class:
+
+Getter and Setter methods: Access and modify attributes.
+theMonthly() method: Abstract method for monthly salary calculation.
+Other methods: Calculate and set various attributes like basic wage, HRA, deductions, and net salary.
+Methods in NormalEmployee and BonusEmployee classes:
+
+theMonthly() method: Overrides the base class method to calculate monthly salary. BonusEmployee additionally calculates a bonus salary.
+Methods in PaySlip class:
+
+main() method: Demonstrates the payroll system by creating instances, setting attributes, calculating monthly salary, and printing pay slips.
+printPaySlip() method: Prints the pay slip, displaying details like earnings, deductions, and net salary.
