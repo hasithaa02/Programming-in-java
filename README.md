@@ -125,3 +125,20 @@ Methods in PaySlip class:
 
 main() method: Demonstrates the payroll system by creating instances, setting attributes, calculating monthly salary, and printing pay slips.
 printPaySlip() method: Prints the pay slip, displaying details like earnings, deductions, and net salary.
+## Assignment 4
+
+### Methods:
+Card Class (Card.java):
+
+Represents a playing card.
+Attributes: rank (int) and suit (String).
+Methods: getRank(), getSuit(), compareTo(Card other), toString().
+Deck Class (Deck.java):
+
+Represents a deck of playing cards.
+Uses a vector to store cards.
+Methods: createDeck(), displayDeck(), shuffleDeck(), drawCard(), emptyDeck(), printCard(), sortCard(), compareCard(), sameCard(), findCard(String suit, int rank), dealCard(), startMenu().
+Main Class (Main.java):
+
+Contains main method.
+Creates a Deck instance and runs the menu-driven interface.
