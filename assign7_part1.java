@@ -1,5 +1,3 @@
-package Part1;
-
 public class RationalNumber {
 	
 	private int numerator;
@@ -63,8 +61,6 @@ public class RationalNumber {
     }
 
 }
-
-package Part1;
 
 import java.util.Scanner;
 
