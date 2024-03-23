@@ -142,3 +142,40 @@ Main Class (Main.java):
 
 Contains main method.
 Creates a Deck instance and runs the menu-driven interface.
+
+## Assignment 7 part 1
+
+RationalNumber class:
+RationalNumber(int numerator, int denominator): Constructor method to initialize a rational number with a numerator and denominator.
+gcd(int a, int b): Private method to find the greatest common divisor (GCD) of two integers.
+simplify(): Private method to simplify the rational number by dividing both numerator and denominator by their GCD.
+add(RationalNumber other): Method to add another rational number to the current one.
+subtract(RationalNumber other): Method to subtract another rational number from the current one.
+multiply(RationalNumber other): Method to multiply another rational number with the current one.
+divide(RationalNumber other): Method to divide the current rational number by another one.
+toDouble(): Method to convert the rational number to a double.
+abs(): Method to find the absolute value of the rational number.
+toString(): Override method to represent the rational number as a string.
+
+Test class:
+main(String[] args): Main method to test the functionalities of the RationalNumber class.
+
+## Assignment 7 part 2
+
+FactorialException class:
+
+FactorialException(int number): Constructor method to initialize a FactorialException object with the invalid input number.
+toString(): Override method to provide a customized string representation of the exception message.
+Test class:
+
+main(String[] args): Main method to handle user input for finding factorial and catch exceptions.
+factorial(int n): Method to calculate the factorial of a given number recursively.
+
+## Assignment 7 part 3
+NOMATCHEXCP class:
+
+NOMATCHEXCP(int lineNumber, String input): Constructor method to initialize a NOMATCHEXCP object with the line number and input string that does not match 'India'.
+Test class:
+
+main(String[] args): Main method to handle user input and check if the input string matches 'India'. It throws a NOMATCHEXCP exception if the input does not match.
+getLineNumber(): Method to get the line number where the exception occurred.
